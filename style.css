@@ -52,7 +52,7 @@ article {
   transform: translate(-50%, -50%);
   border-radius: 2em;
   background: var(--secondaryBackground);
-  box-shadow: 0 0 4px 0px black;
+  box-shadow: 0 0 5px 0px rgb(127, 125, 125);
   padding: 1.5rem 2rem;
 }
 
@@ -63,11 +63,17 @@ article {
 }
 
 .personal-details img {
-  height: 10rem;
-  width: 10rem;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   outline: 2px solid rgb(0, 136, 255);
   outline-offset: 2px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .personal-details h1 {
@@ -75,7 +81,7 @@ article {
 }
 
 .personal-details p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .personal-details a {
@@ -88,12 +94,12 @@ article {
 .real-time {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
   border-top: 1px dotted black;
 }
 
 .real-time p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
