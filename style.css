@@ -70,10 +70,10 @@ article {
   outline-offset: 2px;
 }
 
-.details{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .personal-details h1 {
@@ -94,12 +94,11 @@ article {
 .real-time {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
   border-top: 1px dotted black;
 }
 
 .real-time p {
   font-size: 1.1rem;
 }
-
