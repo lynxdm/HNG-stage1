@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG-stage1</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/6a2abf25a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JAVASCRIPT -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <article>
+        <section class="personal-details">
+          <img
+            src="./displayPic.jpg"
+            alt="lynxdev"
+            data-testid="slackDisplayImage"
+          />
+          <div class="details">
+            <h1 data-testid="slackUserName">Lynxdev</h1>
+            <p class="track" data-testid="myTrack">Frontend</p>
+            <a
+              href="https://github.com/lynxdm/HNG-stage1.git"
+              data-testid="githubURL"
+              target="_blank"
+              class="link"
+              ><p>Github Link</p>
+              <p><i class="fa-solid fa-arrow-up-right-from-square"></i></p
+            ></a>
+          </div>
+        </section>
+        <section class="real-time">
+          <p class="day" data-testid="currentDayOfTheWeek">Thursday</p>
+          <p class="time">
+            UTC TIME:<span data-testid="currentUTCTime"> 113141617181</span>
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

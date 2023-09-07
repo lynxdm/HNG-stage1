@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryFontFamily: "Poppins", sans-serif;
+  --secondaryFontFamily: "Ubuntu", sans-serif;
+  --mainBackground: aliceblue;
+  --secondaryBackground: white;
+}
+
+body {
+  background: var(--mainBackground);
+}
+
+h1 {
+  font-family: var(--secondaryFontFamily);
+  font-weight: 800;
+}
+
+p {
+  font-family: var(--primaryFontFamily);
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+article {
+  position: absolute;
+  width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2em;
+  background: var(--secondaryBackground);
+  box-shadow: 0 0 4px 0px black;
+  padding: 1.5rem 2rem;
+}
+
+.personal-details {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.personal-details img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  outline: 2px solid rgb(0, 136, 255);
+  outline-offset: 2px;
+}
+
+.personal-details h1 {
+  font-size: 2rem;
+}
+
+.personal-details p {
+  font-size: 1.1rem;
+}
+
+.personal-details a {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid;
+  color: rgb(0, 136, 255);
+}
+
+.real-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dotted black;
+}
+
+.real-time p {
+  font-size: 1.2rem;
+}
+
