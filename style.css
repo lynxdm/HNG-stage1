@@ -102,3 +102,26 @@ article {
 .real-time p {
   font-size: 1.1rem;
 }
+
+@media(max-width: 500px){
+    article{
+        width: 23rem;
+    }
+
+    .personal-details img{
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .personal-details h1{
+        font-size: 1.6rem;
+    }
+
+    .personal-details p {
+        font-size: 1rem;
+    }
+
+    .real-time p{
+        font-size: 0.86rem;
+    }
+}
